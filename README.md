@@ -5,15 +5,14 @@
 ## 概要
 * 本体の更新やプラグイン導入はComposerを使用する。
   * `composer.json`,`composer.lock` に定義される。
-* 導入環境の設定は.envに行なう
 * テーマは別管理
   * このリポジトリでは導入プラグインと以前のWordpressでアップロードされたファイルの管理だけ行なう
 
 ## 構築に必要なもの
 * macOS
-* Git
-* [Composer](https://getcomposer.org/download/)
-  * `php composer-setup.php --install-dir=/usr/local/bin --filename=composer --version=1.10.17`
+* Composer
+  1. [Homebrew](https://brew.sh/) をインストールする
+  2. ターミナルで `brew install composer` 実行
 
 ## 構築
 以下手順の`<ドメイン名>`は導入先ドメインに置き換えること
